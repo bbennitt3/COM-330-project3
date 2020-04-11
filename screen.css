@@ -46,7 +46,7 @@ body{
   transition: .4s;
 }
 
-ul li:hover a{
+.sidebar ul li:hover a{
   padding-left: 60px;
 }
 
@@ -91,14 +91,6 @@ label #cancel{
 
 #check:checked ~ label #cancel{
   left: 195px;
-}
-
-#check:checked ~ section{
-  margin-left: 250px; /*can delete, shrinks size of rest of page when open. */
-}
-
-section{
-  transition: all .5s;
 }
 
 html {
