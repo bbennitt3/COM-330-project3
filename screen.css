@@ -9,6 +9,8 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
 /* Using a Major Third modular scale:
    https://www.modularscale.com/?18&px&1.25 */
 
+/*side bar navigation CSS*/
+
 body{
   font-family:"Helvetica Neue", Helvetica, Arial;
 }
@@ -93,6 +95,8 @@ label #cancel{
   left: 110px;
 }
 
+/*start #home css*/
+
 html {
  background-color: #D3D3D3;    /*light gray */
  font-family: 'Roboto', Arial, sans-serif;
@@ -174,18 +178,18 @@ figcaption {
 
 }
 
-h2{
+#home h2{
   font-size: 1.5625em; /* 31.25px / 16px = 1.5625em */
   text-align: center;
 }
 
-h2, h4{
+#home h2, #home h4{
   font-family: 'Merriweather', Arial, sans-serif;
   font-weight: bold;
   padding-bottom: .512em; /* 8.192px / 16px = .512em */
 }
 
-h3{
+#home h3{
   font-family: 'Merriweather', Arial, sans-serif;
   font-weight: bold;
   font-size: 1.25em; /* 20px / 16px = 1.25em */
@@ -217,9 +221,32 @@ h3{
   text-align: left;
 }
 
-h4{
+#home h4{
   font-size: 1.25em; /* 20px / 16px = 1.25em */
 }
+
+/*Start editing resume page*/
+
+#resume main{
+  margin: .262em; /* 4.194px / 16px = .262em */
+}
+
+#resume h1{
+  font-family: 'Merriweather', sans-serif;
+  font-size: 2em; /*can make larger with media query */
+  margin: 0 auto;
+  text-align: center;
+  line-height: 1em;
+}
+
+#resume h1,
+#resume h2{
+  color: black;
+  text-transform: uppercase;
+  padding-bottom: 0;
+}
+
+
 
 /*Media Queries*/
 
