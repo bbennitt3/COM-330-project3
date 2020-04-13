@@ -98,7 +98,7 @@ label #cancel{
 /*start #home css*/
 
 html {
- background-color: #D3D3D3;    /*light gray */
+ background-color: #D3D3D3;    /*light gray #D3D3D3 */
  font-family: 'Roboto', Arial, sans-serif;
  font-size: 1em; /* 16x / 16px = result */
  line-height: 1.25em; /* 20px / 16px = 1.25em */
@@ -204,7 +204,7 @@ figcaption {
 }
 
   /*panel properties*/
-#career-goals, #hobbies, #education{
+#career-goals, #hobbies, #home #education{
   background: #ffffff;
   border-radius: 1vw;
 }
@@ -237,16 +237,76 @@ figcaption {
   margin: 0 auto;
   text-align: center;
   line-height: 1em;
+  padding-bottom: .4096em;
 }
 
 #resume h1,
-#resume h2{
-  color: black;
+#resume h2, #resume hr{
   text-transform: uppercase;
-  padding-bottom: 0;
+  font-weight: bold;
 }
 
+#resume hr{
+  padding: .05em;
+  background-color: black;
+}
+#resume h2{
+  font-size: 1.125em;
+  font-family: 'Merriweather', sans-serif;
+  padding-bottom: 0em;
 
+}
+
+#resume #contact{
+  text-align: center;
+  padding-bottom: 1.75em;
+}
+
+#resume section{
+  padding-bottom: 2em;
+}
+
+#resume h3, #resume h4{
+  padding-bottom: .262em;
+  font-weight: bold;
+  font-style: italic;
+}
+
+#resume .skill-list{
+  padding-bottom: .8em;
+}
+
+#resume .break{
+  padding-bottom: 1.25em;
+}
+
+#resume .date{
+  padding-bottom: .64em;
+}
+
+#resume .responsibilities{
+  padding-bottom: 1.25em;
+  padding-left: 1em;
+  display: inline-block;
+  list-style-type: disc;
+  text-align: left;
+}
+
+#resume .responsibilities li{
+  padding-bottom: .4096em;
+}
+
+#resume .activites ul{
+  padding-bottom: 1.25em;
+  padding-left: 1em;
+  display: inline-block;
+  list-style-type: disc;
+  text-align: left;
+}
+
+#resume{
+  max-width: 900px
+}
 
 /*Media Queries*/
 
