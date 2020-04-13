@@ -308,6 +308,14 @@ figcaption {
   max-width: 900px
 }
 
+#resume #objective p{
+  font-size: 1em;
+}
+
+#resume h4{
+  font-size:1.25em;
+}
+
 /*Media Queries*/
 
 @media screen and (min-width: 15.625em){
