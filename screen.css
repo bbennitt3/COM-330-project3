@@ -215,6 +215,13 @@ figcaption {
   text-align: center;
 }
 
+#contact h4{
+  font-family: "Merriweather", sans-serif;
+  font-size: 2em;
+  line-height: 1em;
+  padding-bottom: .4096em;
+}
+
 .links{
   display: inline-block;
   list-style-type: disc;
