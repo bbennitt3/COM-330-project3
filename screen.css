@@ -324,6 +324,11 @@ figcaption {
   font-size:1.25em;
 }
 
+#resume{
+  padding-bottom: 0em;
+  margin-bottom: 0em;
+}
+
 /*Media Queries*/
 
 @media screen and (min-width: 15.625em){
