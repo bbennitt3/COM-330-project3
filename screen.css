@@ -57,12 +57,12 @@ body{
 }
 
 label #btn,label #cancel{
-  position: absolute;
   cursor: pointer;
   background: #042331;
   border-radius: 3px;
 }
 label #btn{
+  position: absolute;
   left: 7px;
   top: 10px;
   font-size: 20px;
@@ -72,6 +72,7 @@ label #btn{
 }
 
 label #cancel{
+  position: fixed;
   z-index: 1111;
   left: -115px;
   top: 10px;
@@ -95,6 +96,10 @@ label #cancel{
   left: 110px;
 }
 
+#navbar{
+  display: none;
+}
+
 /*start #home css*/
 
 html {
@@ -102,8 +107,6 @@ html {
  font-family: 'Roboto', Arial, sans-serif;
  font-size: 1em; /* 16x / 16px = result */
  line-height: 1.25em; /* 20px / 16px = 1.25em */
-
-
  padding-top: 50px;
 }
 
@@ -418,6 +421,10 @@ figcaption {
 }
 
 @media screen and (min-width: 37.5em){ /* 600px / 16px = 37.5em */
+
+  html{
+    padding-top: 0px;
+  }
   .cover-page{
     padding-bottom: .4096em; /* 6.554px / 16px = .4096em */
   }
@@ -430,7 +437,17 @@ figcaption {
     display: none;
   }
 
-  
+  #navbar{
+    display: block;
+    background: #042331;
+    margin-bottom: 1em;
+  }
+
+  .container{
+    display: inline;
+    width: 80%;
+    margin: 0 auto;
+  }
 
 
 }
