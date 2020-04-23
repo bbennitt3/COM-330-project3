@@ -105,7 +105,16 @@ html {
  padding: .4096em; /* 6.554px / 16px = .4096em */
  padding-bottom: 1em; /* 16x / 16px = 1em */
  padding-top: 50px;
- max-width: 1400px;
+}
+
+main{
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+html footer{
+  padding: 0px;
+  margin: 0 auto;
 }
 
 .name{
