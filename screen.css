@@ -426,7 +426,7 @@ figcaption {
   }
 }
 
-@media screen and (min-width: 37.5em){ /* 600px / 16px = 37.5em */
+@media screen and (min-width: 37.6em){ /* 600px / 16px = 37.6em */
 
   html{
     padding-top: 0px;
