@@ -448,7 +448,8 @@ figcaption {
     background: #042331;
     margin-bottom: 1em;
     box-sizing: border-box;
-    border-bottom: 2px solid #0B1B28;
+    border-bottom: 2px outset black;
+
   }
 
   #navbar ul a{
