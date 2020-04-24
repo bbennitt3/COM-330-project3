@@ -117,7 +117,8 @@ main{
 }
 
 footer{
-  background: #063146;
+  color: white;
+  background: #042331; /*063146*/
   padding: 1em; /* 16x / 16px = 1em */
 }
 
@@ -334,12 +335,17 @@ figcaption {
 }
 
 #resume h4{
-  font-size:1.25em;
+  font-size: 1.25em;
 }
 
 #resume{
   padding-bottom: 0em;
   margin-bottom: 0em;
+}
+
+.current{
+  /*background-color: #063149; /*091621  #0938B1*/
+  border-bottom: 5px solid red;
 }
 
 /*Media Queries*/
@@ -441,15 +447,35 @@ figcaption {
     display: block;
     background: #042331;
     margin-bottom: 1em;
+    box-sizing: border-box;
+    border-bottom: 2px solid #0B1B28;
   }
 
-  .container{
-    display: inline;
-    width: 80%;
-    margin: 0 auto;
+  #navbar ul a{
+    display: block;
+    line-height: 65px;
+    font-size: 20px;
+    color: white;
+    padding-left: 40px;
+    padding-right: 40px;
   }
 
+  #navbar li{
+    display: inline-block;
+  }
 
+  #navbar ul li:hover /* Swap colors on hover */{
+  background: #063149;
+  cursor: pointer;
+  border-bottom: 5px solid white;
+}
+
+  #navbar .current:hover{
+    border-bottom: 0px solid red;
+  }
+
+#navbar a{
+  text-decoration: none;
 }
 
 @media screen and (min-width: 59.375em){
