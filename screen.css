@@ -279,7 +279,6 @@ figcaption {
   font-size: 1.125em;
   font-family: 'Merriweather', sans-serif;
   padding-bottom: 0em;
-
 }
 
 #resume #contact{
@@ -327,6 +326,16 @@ figcaption {
   padding-bottom: 1.25em;
 }
 
+#resume .employer, #resume .organization{
+  font-size: 1.125em;
+  font-weight: bold;
+}
+
+#resume .position{
+  font-size: 1em;
+  font-style: italic;
+}
+
 #resume .date{
   padding-bottom: .64em;
 }
@@ -360,9 +369,8 @@ figcaption {
   font-size: 1em;
 }
 
-#resume h4{
-  font-size: 1.25em;
-}
+
+
 
 #resume{
   padding-bottom: 0em;
