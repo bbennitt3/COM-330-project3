@@ -310,11 +310,17 @@ figcaption {
 
 #resume .degree{
   font-weight: bold;
-  padding-bottom: .64em;
+  padding-bottom: .4096em;
 }
 
 #resume .skill-list{
   padding-bottom: .8em;
+}
+
+#resume .skill-heading{
+  font-style: italic;
+  font-weight: bold;
+  padding-bottom: .262em;
 }
 
 #resume .break{
