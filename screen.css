@@ -252,6 +252,10 @@ figcaption {
 
 /*Start editing resume page*/
 
+#resume header{
+  padding-top: 1em;
+}
+
 #resume main{
   margin: .262em; /* 4.194px / 16px = .262em */
 }
@@ -294,6 +298,10 @@ figcaption {
   padding-top: 1em;
 }
 
+#resume .LWC .italic{
+  padding-bottom: .262em;
+}
+
 #resume #education li{
   padding-top: .262em;
 }
@@ -322,6 +330,10 @@ figcaption {
   padding-bottom: .262em;
 }
 
+#resume .employer, #resume .organization{
+  padding-bottom: .262em;
+}
+
 #resume .break{
   padding-bottom: 1.25em;
 }
@@ -334,6 +346,7 @@ figcaption {
 #resume .position{
   font-size: 1em;
   font-style: italic;
+  padding-bottom: .210em;
 }
 
 #resume .date{
@@ -369,8 +382,13 @@ figcaption {
   font-size: 1em;
 }
 
+#resume .last{
+  padding-bottom: 0em;
+}
 
-
+#resume li.last{
+  padding-bottom: 0em;
+}
 
 #resume{
   padding-bottom: 0em;
