@@ -87,7 +87,6 @@ label #cancel{
 }
 
 #check:checked ~ label #btn{
-  left: 150;
   opacity: 0;
   pointer-events: none;
 }
