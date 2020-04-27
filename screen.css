@@ -103,7 +103,7 @@ label #cancel{
 
 html{
  background-color: #D3D3D3;    /*light gray #D3D3D3 */
- font-family: 'Roboto', Arial, sans-serif;
+ font-family: Arial, sans-serif;
  font-size: 1em; /* 16x / 16px = result */
  line-height: 1.25em; /* 20px / 16px = 1.25em */
  padding-top: 50px;
