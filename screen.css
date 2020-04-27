@@ -18,8 +18,8 @@ body{
 .sidebar{
   position: fixed;
   top:0px;
-  left:-150px;
-  width: 150px; /*change at mobile scale maybe */
+  left: -150px;
+  width: 150px;
   height: 100%;
   background: #042331; /*background color of choice for side bar*/
   transition: all .5s ease;
@@ -38,8 +38,8 @@ body{
   display: block;
   height: 100%;
   width: 100%;
-  line-height: 65px;
-  font-size: 20px;
+  line-height: 4.0625em; /* 65px/16px = 4.0625em */
+  font-size: 1.25em; /* 20px/16px = 1.25em */
   color: white;
   padding-left: 40px;
   box-sizing: border-box;
@@ -106,7 +106,7 @@ html{
  font-family: Arial, sans-serif;
  font-size: 1em; /* 16x / 16px = result */
  line-height: 1.25em; /* 20px / 16px = 1.25em */
- padding-top: 50px;
+ padding-top: 3.125em; /* 50px/16px = 3.125em */
 }
 
 html, body{
@@ -230,6 +230,10 @@ img {
   text-align: center;
 }
 
+#home h4{
+  font-size: 1.25em; /* 20px / 16px = 1.25em */
+}
+
 .interests p{
   padding: .64em; /* 10.24px / 16px = .64em */
   padding-left: .512em; /* 8.192px / 16px = .512em */
@@ -242,6 +246,8 @@ img {
   border-radius: 1vw;
 }
 
+/*#contact page styles*/
+
 .contact-info{
   padding-top: 1em; /* 16x / 16px = result */
   padding-bottom: 1em; /* 16x / 16px = result */
@@ -250,9 +256,9 @@ img {
 
 #contact h4{
   font-family: "Merriweather", sans-serif;
-  font-size: 2em;
-  line-height: 1em;
-  padding-bottom: .4096em;
+  font-size: 2em; /* 32px/16px = 2em */
+  line-height: 1em; /* 16x / 16px = result */
+  padding-bottom: .4096em; /* 6.554px / 16px = .4096em */
 }
 
 .links{
@@ -261,19 +267,27 @@ img {
   text-align: left;
 }
 
-#home h4{
-  font-size: 1.25em; /* 20px / 16px = 1.25em */
+#contact figure{
+  max-width: 40%;
+  padding: .262em; /* 4.194px / 16px = .262em */
+  padding-top: 2em; /* 32px/16px = 2em */
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#contact figcaption{
+  padding-top: 0.64em; /* 11.52px / 18px = 0.64em */
 }
 
 /*Start editing resume page*/
 
 #resume h1{
   font-family: 'Merriweather', sans-serif;
-  font-size: 2em; /*can make larger with media query */
+  font-size: 2em; /*can make larger with media query */ /* 32px/16px = 2em */
   margin: 0 auto;
   text-align: center;
-  line-height: 1em;
-  padding-bottom: .4096em;
+  line-height: 1em; /* 16px/16px = 1em */
+  padding-bottom: .4096em; /* 6.554px / 16px = .4096em */
 }
 
 #resume h1,
@@ -287,30 +301,30 @@ img {
   background-color: black;
 }
 #resume h2{
-  font-size: 1.125em;
+  font-size: 1.125em; /* 18px/16px = 1.125em */
   font-family: 'Merriweather', sans-serif;
   padding-bottom: 0em;
 }
 
 #resume #contact{
   text-align: center;
-  padding-bottom: 1.75em;
+  padding-bottom: 1.75em; /* 28px/16px = 1.75em */
 }
 
 #resume section{
-  padding-bottom: 2em;
+  padding-bottom: 2em; /* 32px/16px = 2em */
 }
 
 #resume .LWC{
-  padding-top: 1em;
+  padding-top: 1em; /* 16px/16px = 1em */
 }
 
 #resume .LWC .italic{
-  padding-bottom: .262em;
+  padding-bottom: .262em; /* 4.194px / 16px = .262em */
 }
 
 #resume #education li{
-  padding-top: .262em;
+  padding-top: .262em; /* 4.194px / 16px = .262em */
 }
 
 #resume .IIT li ul{
@@ -324,57 +338,57 @@ img {
 
 #resume .degree{
   font-weight: bold;
-  padding-bottom: .4096em;
+  padding-bottom: .4096em; /* 6.554px / 16px = .4096em */
 }
 
 #resume .skill-list{
-  padding-bottom: .8em;
+  padding-bottom: .8em; /* 12.8px/16px = .8em */
 }
 
 #resume .skill-heading{
   font-style: italic;
   font-weight: bold;
-  padding-bottom: .262em;
+  padding-bottom: .262em; /* 4.194px / 16px = .262em */
 }
 
 #resume .employer, #resume .organization{
-  padding-bottom: .262em;
+  padding-bottom: .262em; /* 4.194px / 16px = .262em */
 }
 
 #resume .break{
-  padding-bottom: 1.25em;
+  padding-bottom: 1.25em; /* 20px / 16px = 1.25em */
 }
 
 #resume .employer, #resume .organization{
-  font-size: 1.125em;
+  font-size: 1.125em; /* 18px / 16px = 1.125em */
   font-weight: bold;
 }
 
 #resume .position{
-  font-size: 1em;
+  font-size: 1em; /* 16px/16px = 1em */
   font-style: italic;
-  padding-bottom: .210em;
+  padding-bottom: .210em; /* 3.36px/16px = .210em */
 }
 
 #resume .date{
-  padding-bottom: .64em;
+  padding-bottom: .64em; /* 11.52px / 18px = 0.64em */
 }
 
 #resume .responsibilities{
-  padding-bottom: 1.25em;
-  padding-left: 1em;
+  padding-bottom: 1.25em; /* 20px / 16px = 1.25em */
+  padding-left: 1em; /* 16px/16px = 1em */
   display: inline-block;
   list-style-type: disc;
   text-align: left;
 }
 
 #resume .responsibilities li{
-  padding-bottom: .4096em;
+  padding-bottom: .4096em; /* 6.554px / 16px = .4096em */
 }
 
 #resume .activites ul{
-  padding-bottom: 1.25em;
-  padding-left: 1em;
+  padding-bottom: 1.25em; /* 20px / 16px = 1.25em */
+  padding-left: 1em; /* 16px/16px = 1em */
   display: inline-block;
   list-style-type: disc;
   text-align: left;
@@ -385,7 +399,7 @@ img {
 }
 
 #resume #objective p{
-  font-size: 1em;
+  font-size: 1em; /* 16px/16px = 1em */
 }
 
 #resume .last{
@@ -406,18 +420,6 @@ img {
   border-bottom: 5px solid red;
 }
 
-#contact figure{
-  max-width: 40%;
-  padding: .262em;
-  padding-top: 2em;
-  margin: 0 auto;
-  cursor: pointer;
-}
-
-#contact figcaption{
-  padding-top: 0.64em; /* 11.52px / 18px = 0.64em */
-}
-
 /*Media Queries*/
 
 @media screen and (min-width: 15.625em){
@@ -428,7 +430,7 @@ img {
 
 @media screen and (min-width: 285px){
   #resume .IIT li ul li:nth-child(2){
-    padding-left: .262em;
+    padding-left: .262em; /* 4.194px / 16px = .262em */
   }
 }
 
@@ -438,8 +440,8 @@ img {
     margin-bottom: .262em; /* 4.194px / 16px = .262em */
   }
   #resume main{
-    margin-left: .4096em;
-    margin-right: .4096em;
+    margin-left: .4096em; /* 6.554px / 16px = .4096em */
+    margin-right: .4096em; /* 6.554px / 16px = .4096em */
   }
 }
 
@@ -466,11 +468,11 @@ img {
 
 @media screen and (min-width: 400px){
   #resume .degree{
-    font-size: 1.125em;
+    font-size: 1.125em; /* 18px / 16px = 1.125em */
   }
   #home h2{
-    font-size: 2em;
-    padding: 1em;
+    font-size: 2em; /* 32px/16px = 2em */
+    padding: 1em; /* 16px/16px = 1em */
   }
 }
 
@@ -574,7 +576,7 @@ img {
 }
 
 #resume header{
-  padding-top: 1em;
+  padding-top: 1em; /* 16px/16px = 1em */
 }
 
 @media screen and (min-width: 57.8125em){ /* 925px/16px = 57.8125 */
@@ -631,7 +633,7 @@ img {
     margin: 0 auto;
   }
   .name{
-    font-size: 115px;
+    font-size: 7.1875em; /*115px / 16px = 7.1875em */
   }
   .intro-content{
     max-width: 690px;
