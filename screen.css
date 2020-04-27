@@ -252,14 +252,6 @@ figcaption {
 
 /*Start editing resume page*/
 
-#resume header{
-  padding-top: 1em;
-}
-
-#resume main{
-  margin: .262em; /* 4.194px / 16px = .262em */
-}
-
 #resume h1{
   font-family: 'Merriweather', sans-serif;
   font-size: 2em; /*can make larger with media query */
@@ -374,7 +366,6 @@ figcaption {
 }
 
 #resume main{
-  margin: 0 auto;
   max-width: 900px;
 }
 
@@ -418,6 +409,10 @@ figcaption {
   .name{
     font-size: 2.441em; /* 39.063px / 16px = 2.441em */
     margin-bottom: .262em; /* 4.194px / 16px = .262em */
+  }
+  #resume main{
+    margin-left: .4096em;
+    margin-right: .4096em;
   }
 }
 
@@ -541,6 +536,16 @@ figcaption {
 
 #navbar a{
   text-decoration: none;
+}
+
+#resume header{
+  padding-top: 1em;
+}
+
+@media screen and (min-width: 57.8125em){ /* 925px/16px = 57.8125 */
+  #resume main{
+    margin: 0 auto;
+  }
 }
 
 @media screen and (min-width: 59.375em){
