@@ -102,12 +102,29 @@ label #cancel{
 
 /*start #home css*/
 
-html {
+html{
  background-color: #D3D3D3;    /*light gray #D3D3D3 */
  font-family: 'Roboto', Arial, sans-serif;
  font-size: 1em; /* 16x / 16px = result */
  line-height: 1.25em; /* 20px / 16px = 1.25em */
  padding-top: 50px;
+}
+
+html, body{
+  height: 100%;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+}
+
+main{
+  flex: 1 0 auto;
+}
+
+.footer{
+  flex-shrink: 0;
 }
 
 main{
@@ -120,6 +137,7 @@ footer{
   color: white;
   background: #042331; /*063146*/
   padding: 1em; /* 16x / 16px = 1em */
+  padding-bottom: 3em;
 }
 
 .name{
