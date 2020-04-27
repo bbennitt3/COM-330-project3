@@ -157,7 +157,7 @@ img {
   max-width: 100%;
 }
 
-figcaption {
+#home figcaption {
   padding-top: 0.64em; /* 11.52px / 18px = 0.64em */
   /* Use to not show the caption */
   position: absolute;
@@ -412,6 +412,10 @@ figcaption {
   padding-top: 2em;
   margin: 0 auto;
   cursor: pointer;
+}
+
+#contact figcaption{
+  padding-top: 0.64em; /* 11.52px / 18px = 0.64em */
 }
 
 /*Media Queries*/
