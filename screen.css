@@ -99,7 +99,7 @@ label #cancel{
   display: none;
 }
 
-/*start #home css*/
+/*set standard styles for all documents*/
 
 html{
  background-color: #D3D3D3;    /*light gray #D3D3D3 */
@@ -108,6 +108,8 @@ html{
  line-height: 1.25em; /* 20px / 16px = 1.25em */
  padding-top: 3.125em; /* 50px/16px = 3.125em */
 }
+
+/*footer that is used on each page*/
 
 html, body{
   height: 100%;
@@ -137,6 +139,12 @@ footer{
   background: #042331; /*063146*/
   padding: 1em; /* 16x / 16px = 1em */
 }
+
+.current{
+  border-bottom: 5px solid red;
+}
+
+/*start writing css for #home page*/
 
 .name{
   border: solid;
@@ -415,11 +423,6 @@ img {
   margin-bottom: 0em;
 }
 
-.current{
-  /*background-color: #063149; /*091621  #0938B1*/
-  border-bottom: 5px solid red;
-}
-
 /*Media Queries*/
 
 @media screen and (min-width: 15.625em){
@@ -565,19 +568,19 @@ img {
   background: #063149;
   cursor: pointer;
   border-bottom: 5px solid white;
-}
+  }
 
   #navbar .current:hover{
     border-bottom: 0px solid red;
   }
 
-#navbar a{
-  text-decoration: none;
-}
+  #navbar a{
+    text-decoration: none;
+  }
 
-#resume header{
-  padding-top: 1em; /* 16px/16px = 1em */
-}
+  #resume header{
+    padding-top: 1em; /* 16px/16px = 1em */
+  }
 
 @media screen and (min-width: 57.8125em){ /* 925px/16px = 57.8125 */
   #resume main{
